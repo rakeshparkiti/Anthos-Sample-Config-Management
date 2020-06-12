@@ -2,7 +2,7 @@
 
 # This quick script onboards clusters to Anthos Config Management
 
-export KUBECONFIG=$HOME/.kube/destiny-kubeconfig 
+export CLUSTER_KUBECONFIG=$HOME/.kube/destiny.context
 kubectl delete -f - <<EOF
 # config-management.yaml
 

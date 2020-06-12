@@ -4,5 +4,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: bank-app
+  labels:
+    istio-injection: enabled
   annotations:
     configmanagement.gke.io/cluster-selector: selector-destiny

@@ -1,0 +1,22 @@
+##----------------------------------------------------------------------------------##
+##                                                                                  ##
+##  RUN the file as command "$ source ./env " to set the all in environment path.   ##
+##                                                                                  ##                    
+##----------------------------------------------------------------------------------##
+
+# Base dirs
+    export BASE_DIR=$(pwd)
+
+# GCP project
+    export PROJECT=$(gcloud config get-value project)
+
+# Tools versions
+    export ISTIO_VERSION=
+    export KUBECTX_VERSION=
+    export HELM_VERSION=
+    export CLUSTER_VERSION=
+
+# Setting variables for GKE
+    export CLUSTER_NAME="destiny"
+    export CLUSTER_ZONE="asia-south1-a"
+    export CLUSTER_KUBECONFIG=$HOME/.kube/destiny.context 
