@@ -1,0 +1,8 @@
+# Banking Application Namespace
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bank-app
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-destiny

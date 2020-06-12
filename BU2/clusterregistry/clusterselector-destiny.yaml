@@ -1,0 +1,11 @@
+# Details of the Kubernetes cluster details on selector match gce_labels
+---
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: selector-destiny
+spec:
+  selector:
+    matchLabels:
+      env: gke
+      lifecycle: prod
