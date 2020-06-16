@@ -3,7 +3,7 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: cis-dev-config-selector
+  name: cis-prod-config-selector
 spec:
   selector:
     matchLabels:
