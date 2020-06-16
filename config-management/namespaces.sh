@@ -9,6 +9,6 @@ for val in "${ClusterArray[@]}"; do
   printf "\n\nCluster: $val \n"
   export KUBECONFIG=$HOME/.kube/$val.context
   kubectl get ns
-  kubectl delete ns nginx bank-app sock-shop 
+  #kubectl delete ns nginx bank-app sock-shop 
   #kubectl get deployments,pods,svc 
 done
