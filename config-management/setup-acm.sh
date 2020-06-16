@@ -56,5 +56,5 @@ spec:
     syncRepo: git@github.com:rakeshparkiti/OverallOrg.git
     syncBranch: master
     secretType: ssh
-    policyDir: "OverallOrg-Common"
+    policyDir: "BUs/BU2"
 EOF
