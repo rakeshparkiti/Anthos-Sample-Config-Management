@@ -1,0 +1,9 @@
+# Define your Kubernetes cluster details
+---
+kind: Cluster
+apiVersion: clusterregistry.k8s.io/v1alpha1
+metadata:
+  name: destiny
+  labels:
+    env: gke
+    lifecycle: prod
