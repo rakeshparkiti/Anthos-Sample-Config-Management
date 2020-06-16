@@ -3,7 +3,7 @@
 apiVersion: apps/v1
 kind: Namespace
 metadata:
-  name: sock-shop
+  name: loadtest
   labels:
     istio-injection: enabled
   annotations:
