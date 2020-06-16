@@ -18,7 +18,7 @@ spec:
     syncRepo: git@github.com:rakeshparkiti/OverallOrg.git #You can Address Other Repo also
     syncBranch: master
     secretType: ssh
-    policyDir: "BU1"
+    policyDir: "BUs/BU1"
 EOF
 
 # Cluster Two Details 
@@ -37,7 +37,7 @@ spec:
     syncRepo: git@github.com:rakeshparkiti/OverallOrg.git
     syncBranch: master
     secretType: ssh
-    policyDir: "BU1"
+    policyDir: "BUs/BU1"
 EOF
 
 # Cluster Three Details 

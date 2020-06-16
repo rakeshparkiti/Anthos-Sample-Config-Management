@@ -1,8 +1,0 @@
-# Istio System Namespace
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: istio-system
-  #annotations:
-  #  configmanagement.gke.io/cluster-selector: selector-destiny
