@@ -18,3 +18,13 @@ metadata:
     istio-injection: enabled
   annotations:
     configmanagement.gke.io/cluster-selector: cis-prod-config-selector
+
+---
+apiVersion: apps/v1
+kind: Namespace
+metadata:
+  name: config
+  labels:
+    istio-injection: enabled
+  annotations:
+    configmanagement.gke.io/cluster-selector: cis-prod-config-selector
