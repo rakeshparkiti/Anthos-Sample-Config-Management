@@ -1,0 +1,8 @@
+# Istio System Namespace
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test
+  annotations:
+    configmanagement.gke.io/cluster-selector: destiny-selector
