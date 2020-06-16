@@ -3,7 +3,7 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: destiny
+  name: cis-dev-config
   labels:
     env: gke
-    lifecycle: prod
+    lifecycle: dev

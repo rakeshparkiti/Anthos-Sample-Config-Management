@@ -3,9 +3,9 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: selector-destiny
+  name: cis-dev-config-selector
 spec:
   selector:
     matchLabels:
       env: gke
-      lifecycle: prod
+      lifecycle: dev

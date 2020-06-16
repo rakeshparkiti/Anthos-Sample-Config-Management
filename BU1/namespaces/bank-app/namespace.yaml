@@ -7,4 +7,4 @@ metadata:
   labels:
     istio-injection: enabled
   annotations:
-    configmanagement.gke.io/cluster-selector: selector-destiny
+    configmanagement.gke.io/cluster-selector: cis-dev-config-selector
