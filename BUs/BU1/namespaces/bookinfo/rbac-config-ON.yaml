@@ -1,8 +1,8 @@
 apiVersion: "rbac.istio.io/v1alpha1"
 kind: ClusterRbacConfig
 metadata:
-  name: default
+  name: bookinfo
 spec:
   mode: 'ON_WITH_INCLUSION'
   inclusion:
-    namespaces: ["default"]
+    namespaces: ["bookinfo"]

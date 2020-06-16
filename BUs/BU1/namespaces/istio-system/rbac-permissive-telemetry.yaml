@@ -3,7 +3,7 @@ apiVersion: "config.istio.io/v1alpha2"
 kind: instance
 metadata:
   name: rbacsamplelog
-  namespace: istio-system
+  #namespace: istio-system
 spec:
   compiledTemplate: logentry
   params:
@@ -25,7 +25,7 @@ apiVersion: "config.istio.io/v1alpha2"
 kind: handler
 metadata:
   name: rbacsamplehandler
-  namespace: istio-system
+  #namespace: istio-system
 spec:
  compiledAdapter: stdio
  params:
@@ -38,7 +38,7 @@ apiVersion: "config.istio.io/v1alpha2"
 kind: rule
 metadata:
   name: rabcsamplestdio
-  namespace: istio-system
+  #namespace: istio-system
 spec:
   actions:
    - handler: rbacsamplehandler

@@ -2,17 +2,17 @@ apiVersion: "rbac.istio.io/v1alpha1"
 kind: ServiceRole
 metadata:
   name: productpage-viewer
-  namespace: default
+  #namespace: default
 spec:
   rules:
-  - services: ["productpage.default.svc.cluster.local"]
+  - services: ["productpage.bookinfo.svc.cluster.local"]
     methods: ["GET"]
 ---
 apiVersion: "rbac.istio.io/v1alpha1"
 kind: ServiceRoleBinding
 metadata:
   name: bind-productpage-viewer
-  namespace: default
+  #namespace: default
 spec:
   subjects:
   - user: "*"
