@@ -1,7 +1,19 @@
+# For sock-shop application having two namespaces
+---
 apiVersion: apps/v1
 kind: Namespace
 metadata:
   name: sock-shop
+  labels:
+    istio-injection: enabled
+  annotations:
+    configmanagement.gke.io/cluster-selector: cis-prod-config-selector
+
+---
+apiVersion: apps/v1
+kind: Namespace
+metadata:
+  name: loadtest
   labels:
     istio-injection: enabled
   annotations:
