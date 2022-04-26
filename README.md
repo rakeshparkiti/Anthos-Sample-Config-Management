@@ -1,1 +1,1 @@
-# OverallOrg
+# Anthos Sample Config Management
